@@ -7,3 +7,11 @@ collections:
   pages:
     output: true
     permalink: /:name/
+
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+  publications:
+    output: true
+    permalink: /publications/:name/
