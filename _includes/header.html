@@ -1,40 +1,43 @@
- <!-- Topbar (Sticky) -->
-  <header class="topbar" role="banner">
-    <div class="container topbar-inner">
-      <a class="brand" href="#top" aria-label="Go to top">
-        <img class="brand-logo" src="static/logo.png" alt="QMatAI Lab logo">
-        <div class="brand-text">
-          <span class="brand-title">Hossain Quantum Research</span>
-          <span class="brand-subtitle">Quantum • Materials • AI</span>
-        </div>
-      </a>
+<!-- Topbar (Sticky) -->
+<header class="topbar" role="banner">
+  <div class="container topbar-inner">
 
-      <nav class="nav" aria-label="Primary navigation">
-        <a href="#about">About</a>
-        <a href="#research">Research</a>
-        <a href="#publications">Publications</a>
-        <a href="#projects">Projects</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-      </nav>
-
-      <div class="topbar-actions">
-        <button id="themeToggle" class="btn btn-ghost" type="button" aria-label="Toggle theme">
-          <span class="icon" aria-hidden="true">🌓</span>
-          <span class="hide-sm">Theme</span>
-        </button>
-        <a class="btn btn-primary" href="#contact">Let’s connect</a>
+    <!-- Brand -->
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="Go to home">
+      <img class="brand-logo"
+           src="{{ '/static/logo.png' | relative_url }}"
+           alt="QMatAI Lab logo">
+      <div class="brand-text">
+        <span class="brand-title">Hossain Quantum Research</span>
+        <span class="brand-subtitle">Quantum • Materials • AI</span>
       </div>
+    </a>
+
+    <!-- Primary navigation -->
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="{{ '/about/' | relative_url }}">About</a>
+      <a href="{{ '/research/' | relative_url }}">Research</a>
+      <a href="{{ '/publications/' | relative_url }}">Publications</a>
+      <a href="{{ '/projects/' | relative_url }}">Projects</a>
+      <a href="{{ '/news/' | relative_url }}">News</a>
+      <a href="{{ '/contact/' | relative_url }}">Contact</a>
+    </nav>
+
+    <!-- Actions -->
+    <div class="topbar-actions">
+      <button id="themeToggle"
+              class="btn btn-ghost"
+              type="button"
+              aria-label="Toggle theme">
+        <span class="icon" aria-hidden="true">🌓</span>
+        <span class="hide-sm">Theme</span>
+      </button>
+
+      <a class="btn btn-primary"
+         href="{{ '/contact/' | relative_url }}">
+        Let’s connect
+      </a>
     </div>
-  </header>
 
-<nav class="nav">
-  <a href="{{ '/' | relative_url }}">Home</a>
-  <a href="{{ '/about/' | relative_url }}">About</a>
-  <a href="{{ '/research/' | relative_url }}">Research</a>
-  <a href="{{ '/publications/' | relative_url }}">Publications</a>
-  <a href="{{ '/projects/' | relative_url }}">Projects</a>
-  <a href="{{ '/news/' | relative_url }}">News</a>
-  <a href="{{ '/contact/' | relative_url }}">Contact</a>
-</nav>
-
+  </div>
+</header>
