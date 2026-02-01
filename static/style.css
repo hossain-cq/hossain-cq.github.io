@@ -1195,3 +1195,9 @@ input:focus, textarea:focus{
     margin: 0 15px; /* This adds a bit more horizontal space around the dot */
     color: var(--accent); /* Optional: makes the dot your brand color */
 }
+.nav a[aria-current="page"] {
+  color: var(--accent);
+  font-weight: 600;
+  border-bottom: 2px solid var(--accent);
+}
+
