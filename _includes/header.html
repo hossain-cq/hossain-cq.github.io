@@ -14,14 +14,45 @@
     </a>
 
     <!-- Primary navigation -->
-    <nav class="nav" aria-label="Primary navigation">
-      <a href="{{ '/about/' | relative_url }}">About</a>
-      <a href="{{ '/research/' | relative_url }}">Research</a>
-      <a href="{{ '/publications/' | relative_url }}">Publications</a>
-      <a href="{{ '/projects/' | relative_url }}">Projects</a>
-      <a href="{{ '/news/' | relative_url }}">News</a>
-      <a href="{{ '/contact/' | relative_url }}">Contact</a>
-    </nav>
+<nav class="nav" aria-label="Primary navigation">
+
+  <a href="{{ '/' | relative_url }}"
+     class="{% if page.url == '/' %}active{% endif %}">
+     Home
+  </a>
+
+  <a href="{{ '/about/' | relative_url }}"
+     class="{% if page.url == '/about/' %}active{% endif %}">
+     About
+  </a>
+
+  <a href="{{ '/research/' | relative_url }}"
+     class="{% if page.url == '/research/' %}active{% endif %}">
+     Research
+  </a>
+
+  <a href="{{ '/publications/' | relative_url }}"
+     class="{% if page.url == '/publications/' %}active{% endif %}">
+     Publications
+  </a>
+
+  <a href="{{ '/projects/' | relative_url }}"
+     class="{% if page.url == '/projects/' %}active{% endif %}">
+     Projects
+  </a>
+
+  <a href="{{ '/news/' | relative_url }}"
+     class="{% if page.url == '/news/' %}active{% endif %}">
+     News
+  </a>
+
+  <a href="{{ '/contact/' | relative_url }}"
+     class="{% if page.url == '/contact/' %}active{% endif %}">
+     Contact
+  </a>
+
+</nav>
+
 
     <!-- Actions -->
     <div class="topbar-actions">
