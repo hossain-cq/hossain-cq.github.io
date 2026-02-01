@@ -3,7 +3,9 @@
   <div class="container topbar-inner">
 
     <!-- Brand -->
-    <a class="brand" href="{{ '/' | relative_url }}" aria-label="Go to home">
+    <a class="brand"
+       href="{{ '/' | relative_url }}"
+       aria-label="Go to home">
       <img class="brand-logo"
            src="{{ '/static/logo.png' | relative_url }}"
            alt="QMatAI Lab logo">
@@ -14,45 +16,44 @@
     </a>
 
     <!-- Primary navigation -->
-<nav class="nav" aria-label="Primary navigation">
+    <nav class="nav" aria-label="Primary navigation">
 
-  <a href="{{ '/' | relative_url }}"
-     class="{% if page.url == '/' %}active{% endif %}">
-     Home
-  </a>
+      <a href="{{ '/' | relative_url }}"
+         {% if page.url == '/' %}aria-current="page"{% endif %}>
+        Home
+      </a>
 
-  <a href="{{ '/about/' | relative_url }}"
-     class="{% if page.url == '/about/' %}active{% endif %}">
-     About
-  </a>
+      <a href="{{ '/about/' | relative_url }}"
+         {% if page.url == '/about/' %}aria-current="page"{% endif %}>
+        About
+      </a>
 
-  <a href="{{ '/research/' | relative_url }}"
-     class="{% if page.url == '/research/' %}active{% endif %}">
-     Research
-  </a>
+      <a href="{{ '/research/' | relative_url }}"
+         {% if page.url == '/research/' %}aria-current="page"{% endif %}>
+        Research
+      </a>
 
-  <a href="{{ '/publications/' | relative_url }}"
-     class="{% if page.url == '/publications/' %}active{% endif %}">
-     Publications
-  </a>
+      <a href="{{ '/publications/' | relative_url }}"
+         {% if page.url == '/publications/' %}aria-current="page"{% endif %}>
+        Publications
+      </a>
 
-  <a href="{{ '/projects/' | relative_url }}"
-     class="{% if page.url == '/projects/' %}active{% endif %}">
-     Projects
-  </a>
+      <a href="{{ '/projects/' | relative_url }}"
+         {% if page.url == '/projects/' %}aria-current="page"{% endif %}>
+        Projects
+      </a>
 
-  <a href="{{ '/news/' | relative_url }}"
-     class="{% if page.url == '/news/' %}active{% endif %}">
-     News
-  </a>
+      <a href="{{ '/news/' | relative_url }}"
+         {% if page.url == '/news/' %}aria-current="page"{% endif %}>
+        News
+      </a>
 
-  <a href="{{ '/contact/' | relative_url }}"
-     class="{% if page.url == '/contact/' %}active{% endif %}">
-     Contact
-  </a>
+      <a href="{{ '/contact/' | relative_url }}"
+         {% if page.url == '/contact/' %}aria-current="page"{% endif %}>
+        Contact
+      </a>
 
-</nav>
-
+    </nav>
 
     <!-- Actions -->
     <div class="topbar-actions">
