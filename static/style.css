@@ -1290,7 +1290,7 @@ input:focus, textarea:focus{
   color: rgba(255,255,255,0.9);
 }
 .conference-visual {
-  aspect-ratio: 4 / 3;   /* taller than before */
+  aspect-ratio: 3 / 2;   /* taller than before */
   height: auto;          /* let aspect-ratio control it */
 }
 .conference-visual {
