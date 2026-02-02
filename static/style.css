@@ -1246,16 +1246,6 @@ input:focus, textarea:focus{
   font-size: 0.75rem;
   color: var(--muted);
 }
-.section-divider {
-  height: 1px;
-  margin: 4rem 0 3rem;
-  background: linear-gradient(
-    to right,
-    transparent,
-    rgba(255,255,255,0.15),
-    transparent
-  );
-}
 .hero {
   padding-bottom: 5rem;
 }
