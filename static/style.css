@@ -1249,18 +1249,9 @@ input:focus, textarea:focus{
 .mini-stats .stat-num {
   text-align: center;
 }
-.mini-stats .stat {
-  min-height: 200px;   /* try 220px if you want a bit more */
-}
-
 .mini-stats .stat-label {
   color: rgba(255, 255, 255, 0.9);
   line-height: 1.5;
-}
-.mini-stats .stat {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
 }
 .current-focus {
   margin-top: 2rem;
