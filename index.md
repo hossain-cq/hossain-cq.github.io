@@ -161,6 +161,8 @@ title: Home | Hossain Quantum Research
 </div>
 </section>
 
+<div class="section-divider"></div>
+
 <section id="about" class="section">
   <div class="section-head">
     <h2>About</h2>
