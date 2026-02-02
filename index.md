@@ -157,7 +157,6 @@ title: Home | Hossain Quantum Research
     </div>
   </div>
 
-
 </div>
 </section>
 
