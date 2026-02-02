@@ -1287,3 +1287,21 @@ input:focus, textarea:focus{
 .conference-visual {
   height: 240px;
 }
+/* Make Current Research Directions more compact */
+.current-focus {
+  padding-top: 1rem;      /* was ~1.4rem */
+  padding-bottom: 1.2rem;
+}
+
+.current-focus h3 {
+  margin-top: 0;          /* remove default top margin */
+  margin-bottom: 0.6rem; /* tighten gap below heading */
+}
+
+.current-focus ul {
+  margin-top: 0;
+}
+
+.current-focus li {
+  margin-bottom: 0.45rem; /* slightly tighter list */
+}
