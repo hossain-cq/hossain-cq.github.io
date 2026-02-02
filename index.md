@@ -128,15 +128,6 @@ title: Home | Hossain Quantum Research
     </div>
   </div>
 
-  <div class="quote-card">
-    <div class="quote-mark">“</div>
-    <div class="quote-text">
-      I build research systems that connect physics-based simulation,
-      data-driven modeling, and emerging quantum methods into
-      coherent, reproducible scientific workflows.
-    </div>
-  </div>
-
   <div class="conference-card">
   <h4>Invited Talks & Conferences</h4>
 
@@ -156,6 +147,15 @@ title: Home | Hossain Quantum Research
     Selected academic talks, seminars, and conference presentations.
   </div>
 </div>
+
+  <div class="quote-card">
+    <div class="quote-mark">“</div>
+    <div class="quote-text">
+      I build research systems that connect physics-based simulation,
+      data-driven modeling, and emerging quantum methods into
+      coherent, reproducible scientific workflows.
+    </div>
+  </div>
 
 
 </div>
