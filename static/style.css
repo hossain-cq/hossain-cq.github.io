@@ -1294,9 +1294,5 @@ input:focus, textarea:focus{
   height: auto;          /* let aspect-ratio control it */
 }
 .conference-visual {
-  height: 240px;
+  height: 260px;
 }
-
-
-
-
