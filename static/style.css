@@ -1249,3 +1249,14 @@ input:focus, textarea:focus{
 .hero {
   padding-bottom: 5rem;
 }
+.hero .card {
+  min-height: 240px;
+}
+.hero .card h3 {
+  text-align: center;
+}
+.hero .card p,
+.hero .card li {
+  color: rgba(255, 255, 255, 0.88);
+  line-height: 1.5;
+}
