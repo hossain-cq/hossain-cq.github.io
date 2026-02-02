@@ -1274,7 +1274,7 @@ input:focus, textarea:focus{
 }
 
 .current-focus h3 {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.8rem;
   font-size: 1rem;
   font-weight: 600;
   text-align: center;
@@ -1285,7 +1285,7 @@ input:focus, textarea:focus{
 }
 
 .current-focus li {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.6rem;
   line-height: 1.5;
   color: rgba(255,255,255,0.9);
 }
@@ -1294,5 +1294,5 @@ input:focus, textarea:focus{
   height: auto;          /* let aspect-ratio control it */
 }
 .conference-visual {
-  height: 260px;
+  height: 240px;
 }
