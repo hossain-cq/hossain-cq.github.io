@@ -159,10 +159,20 @@ title: Home | Hossain Quantum Research
          alt="Invited talk at international conference"
          class="active">
 
-  <img src="{{ '/static/conferences/conf2.jpg' | relative_url }}"
+  <img src="{{ '/static/conferences/conf5.jpg' | relative_url }}"
          alt="Poster presentation at academic workshop">
 
   <img src="{{ '/static/conferences/conf3.jpg' | relative_url }}"
+         alt="Invited seminar at research institute">
+         
+  <img src="{{ '/static/conferences/conf4.jpg' | relative_url }}"
+         alt="Invited seminar at research institute">
+         
+  <img src="{{ '/static/conferences/conf6.jpg' | relative_url }}"
+         alt="Invited seminar at research institute">
+  <img src="{{ '/static/conferences/conf8.jpg' | relative_url }}"
+         alt="Invited seminar at research institute">
+  <img src="{{ '/static/conferences/conf9.jpg' | relative_url }}"
          alt="Invited seminar at research institute">
   </div>
 
