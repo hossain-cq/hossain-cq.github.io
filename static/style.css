@@ -1255,7 +1255,7 @@ input:focus, textarea:focus{
 
 .mini-stats .stat-label {
   color: rgba(255, 255, 255, 0.9);
-  line-height: 1.2;
+  line-height: 1.5;
 }
 .mini-stats .stat {
   display: flex;
