@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Publications | Hossain Quantum Research
+title: Publications | Dr. Hossain Quantum Research
 permalink: /publications/
 ---
 
