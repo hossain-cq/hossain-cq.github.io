@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About | Hossain Quantum Research
+title: About | Dr. Hossain Quantum Research
 permalink: /about/
 ---
 
