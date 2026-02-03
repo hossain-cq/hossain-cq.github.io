@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Contact | Hossain Quantum Research
+title: Contact | Dr. Hossain Quantum Research
 permalink: /contact/
 ---
 
