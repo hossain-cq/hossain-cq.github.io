@@ -1,33 +1,88 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="dark">
-<head>
+  <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>{{ page.title }}</title>
+  <title>
+    {% if page.title %}
+      {{ page.title }} | Sk Mujaffar Hossain · Computational Materials & Quantum Research
+    {% else %}
+      Sk Mujaffar Hossain · Computational Materials, AI & Quantum Algorithms
+    {% endif %}
+  </title>
 
-  <!-- Fonts -->
+  <meta name="description"
+        content="Computational materials scientist working at the intersection of first-principles simulation (DFT, AIMD), materials-focused machine learning, and quantum algorithms, with applications to battery materials and excited-state problems.">
+
+  <meta name="author" content="Sk Mujaffar Hossain">
+  <meta name="keywords"
+        content="computational materials science, density functional theory, materials machine learning, physics-informed ML, quantum algorithms, battery materials, excited states">
+
+  <link rel="canonical" href="https://hossain-cq.github.io/skmpwebs.io/">
+
+  <!-- Open Graph -->
+  <meta property="og:site_name" content="Hossain Quantum Research">
+  <meta property="og:title"
+        content="Sk Mujaffar Hossain · Computational Materials & Quantum Research">
+  <meta property="og:description"
+        content="Research at the intersection of DFT, materials-focused machine learning, and quantum algorithms, with emphasis on reproducible workflows and excited-state problems.">
+  <meta property="og:image"
+        content="https://hossain-cq.github.io/skmpwebs.io/static/profile.png">
+  <meta property="og:url"
+        content="https://hossain-cq.github.io/skmpwebs.io/">
+  <meta property="og:type" content="profile">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title"
+        content="Sk Mujaffar Hossain · Computational Materials & Quantum Research">
+  <meta name="twitter:description"
+        content="Computational materials science integrating DFT, AI/ML, and quantum algorithms for energy and excited-state problems.">
+  <meta name="twitter:image"
+        content="https://hossain-cq.github.io/skmpwebs.io/static/profile.png">
+
+  <!-- Fonts & Styles -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-
-  <link rel="icon" href="{{ '/static/favicon.png' | relative_url }}">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" crossorigin="anonymous">
 
-  <!-- Styles -->
+  <link rel="icon" href="{{ '/static/favicon.png' | relative_url }}">
   <link rel="stylesheet" href="{{ '/static/style.css' | relative_url }}">
 
-  <meta property="og:title" content="{{ page.title }}">
-  <meta property="og:description" content="Research at the intersection of AI, DFT, and Quantum Computing.">
-  <meta property="og:image" content="{{ '/static/profile.png' | absolute_url }}">
-  <meta property="og:url" content="{{ page.url | absolute_url }}">
-  <meta property="og:type" content="website">
-  <meta name="twitter:card" content="summary_large_image">
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Sk Mujaffar Hossain",
+    "url": "https://hossain-cq.github.io/skmpwebs.io/",
+    "image": "https://hossain-cq.github.io/skmpwebs.io/static/profile.png",
+    "jobTitle": "Computational Materials Scientist",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "IKST"
+    },
+    "sameAs": [
+      "https://scholar.google.com/citations?user=j9qy2R0AAAAJ",
+      "https://github.com/hossain-cq",
+      "https://www.linkedin.com/in/sk-mujaffar-hossain-ph-d-a728089b/"
+    ],
+    "knowsAbout": [
+      "Density Functional Theory",
+      "Ab Initio Molecular Dynamics",
+      "Physics-Informed Machine Learning",
+      "Materials Informatics",
+      "Quantum Algorithms",
+      "Excited-State Methods",
+      "Battery Materials"
+    ]
+  }
+  </script>
 </head>
+
 
 <body>
 
