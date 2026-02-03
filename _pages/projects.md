@@ -81,6 +81,60 @@ permalink: /projects/
       </div>
     </article>
 
+    <!-- DFT toolkit -->
+  <article class="card card-gradient">
+      <h3>High-throughput DFT analysis and automation toolkit</h3>
+      <p>
+        Modular toolkit for automating density-functional theory workflows,
+        including output parsing, convergence diagnostics, and generation
+        of publication-ready figures.
+      </p>
+      <p>
+        Designed to support large-scale studies and to serve as a reliable
+        data-generation backend for machine-learning and quantum simulation tasks.
+      </p>
+
+  <ul class="project-meta">
+        <li><strong>Input:</strong> Raw DFT and AIMD calculation outputs</li>
+        <li><strong>Output:</strong> Curated datasets and reproducible analyses</li>
+        <li><strong>Audience:</strong> Computational materials researchers</li>
+      </ul>
+
+  <div class="card-footer">
+        <span class="badge status-badge">Manuscript in prep</span>
+        <span class="badge">DFT</span>
+        <span class="badge">Automation</span>
+        <span class="badge">Reproducibility</span>
+      </div>
+    </article>
+
+    <!-- Quantum algorithms -->
+  <article class="card card-gradient">
+      <h3>Spectral filtering and subspace quantum algorithms</h3>
+      <p>
+        Development of quantum algorithms for resolving eigenvalues with
+        exponentially small gaps and low spectral weight using filtering-enhanced
+        phase estimation and quantum subspace methods.
+      </p>
+      <p>
+        This work targets algorithmic scalability and noise robustness,
+        with applications to molecular excitation spectra and correlated quantum systems.
+      </p>
+
+  <ul class="project-meta">
+        <li><strong>Input:</strong> Hamiltonians with dense or near-degenerate spectra</li>
+        <li><strong>Output:</strong> Isolated eigenvalues and reduced subspaces</li>
+        <li><strong>Audience:</strong> Quantum algorithms and theory researchers</li>
+      </ul>
+
+  <div class="card-footer">
+        <span class="badge status-badge">Manuscript in prep</span>
+        <span class="badge">qPCA</span>
+        <span class="badge">QPE</span>
+        <span class="badge">Spectral filtering</span>
+      </div>
+    </article>
+
   </div>
 </section>
 
