@@ -1499,6 +1499,17 @@ html, body {
   }
 
 }
+@media (max-width: 768px) {
+
+  .topbar-actions {
+    gap: 0.35rem;   /* was probably ~0.6rem */
+  }
+
+  .nav-toggle {
+    margin-left: 0.2rem;  /* reduce spacing */
+  }
+
+}
 
 
 
