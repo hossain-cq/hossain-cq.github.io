@@ -150,5 +150,14 @@ function openWhatsApp() {
     images[index].classList.add("active");
   }, 7000); // slow, subtle
 })();
+const toggle = document.querySelector('.nav-toggle');
+const nav = document.querySelector('.nav');
+
+if (toggle && nav) {
+  toggle.addEventListener('click', () => {
+    nav.classList.toggle('open');
+  });
+}
+
 
 
