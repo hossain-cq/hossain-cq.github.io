@@ -1358,18 +1358,3 @@ html, body {
 .bg {
   pointer-events: none;
 }
-/* === FORCE MOBILE CONTENT VISIBILITY (DEBUG FIX) === */
-@media (max-width: 768px) {
-  main,
-  .main-content,
-  section,
-  .section {
-    display: block !important;
-    position: static !important;
-    height: auto !important;
-    max-height: none !important;
-    overflow: visible !important;
-  }
-}
-
-
