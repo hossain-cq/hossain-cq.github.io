@@ -1537,7 +1537,59 @@ html, body {
   }
 
 }
+@media (max-width: 768px) {
 
+  .nav {
+    position: absolute;
+    top: calc(100% + 0.5rem);
+    right: 0.75rem;
+    left: auto;
 
+    width: 55vw;          /* 👈 KEY: horizontal control */
+    max-width: 320px;     /* prevents it from being too wide */
+    min-width: 220px;
 
+    display: none;
+    flex-direction: column;
+
+    background: rgba(10, 10, 15, 0.92);
+    backdrop-filter: blur(14px);
+
+    border-radius: 18px;
+    padding: 0.75rem 1.25rem;
+
+    box-shadow:
+      0 20px 40px rgba(0, 0, 0, 0.45),
+      inset 0 1px 0 rgba(255,255,255,0.06);
+
+    z-index: 1000;
+  }
+
+  .nav.open {
+    display: flex;
+  }
+
+}
+/* Default (dark theme) */
+.nav-toggle span {
+  background: white;
+}
+
+/* Light theme override */
+html[data-theme="light"] .nav-toggle span {
+  background: #1a1a1a;
+}
+/* Light mode mobile menu */
+html[data-theme="light"] .nav {
+  background: rgba(245, 247, 250, 0.96);
+  backdrop-filter: blur(10px);
+}
+
+html[data-theme="light"] .nav a {
+  color: #1a1a1a;
+}
+
+html[data-theme="light"] .nav a[aria-current="page"] {
+  color: #7c3aed; /* your accent purple */
+}
 
