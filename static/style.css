@@ -1549,6 +1549,9 @@ html, body {
     max-width: 320px;     /* prevents it from being too wide */
     min-width: 220px;
 
+    max-height: 50vh;     /* 👈 reduced from 60vh */
+    overflow-y: auto;
+
     display: none;
     flex-direction: column;
 
