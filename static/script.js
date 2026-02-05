@@ -156,19 +156,30 @@ const nav = document.querySelector('.nav');
 if (toggle && nav) {
 
   // Toggle menu on hamburger click
-  toggle.addEventListener('click', () => {
+  toggle.addEventListener('click', (e) => {
+    e.stopPropagation(); // prevent document click
     const isOpen = nav.classList.toggle('open');
     toggle.setAttribute('aria-expanded', isOpen);
   });
 
-  // Auto-close menu when a link is clicked (mobile UX)
+  // Auto-close menu when a nav link is clicked
   nav.querySelectorAll('a').forEach(link => {
     link.addEventListener('click', () => {
-      if (nav.classList.contains('open')) {
-        nav.classList.remove('open');
-        toggle.setAttribute('aria-expanded', 'false');
-      }
+      nav.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
     });
+  });
+
+  // Close menu when tapping outside
+  document.addEventListener('click', (e) => {
+    if (
+      nav.classList.contains('open') &&
+      !nav.contains(e.target) &&
+      !toggle.contains(e.target)
+    ) {
+      nav.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+    }
   });
 
 }
