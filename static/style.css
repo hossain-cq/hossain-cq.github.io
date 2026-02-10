@@ -1657,6 +1657,25 @@ html[data-theme="light"] h3,
 html[data-theme="light"] .stat-num {
   color: var(--accent);
 }
+/* =========================
+   Light mode pill visibility fix
+   ========================= */
+
+html[data-theme="light"] .tag,
+html[data-theme="light"] .badge,
+html[data-theme="light"] .pill {
+  background: rgba(109, 40, 217, 0.08);   /* soft purple tint */
+  border: 1.5px solid #6d28d9;            /* strong accent border */
+  color: #4c1d95;                         /* darker purple text */
+  font-weight: 600;
+}
+
+/* Hover / active state */
+html[data-theme="light"] .tag:hover,
+html[data-theme="light"] .badge:hover,
+html[data-theme="light"] .pill:hover {
+  background: rgba(109, 40, 217, 0.14);
+}
 
 
 
