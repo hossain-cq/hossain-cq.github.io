@@ -48,8 +48,10 @@ permalink: /publications/
         NaPF₆, and FSI Salts
       </div>
       <div class="list-sub">
-        <strong>Status:</strong> Accepted for publication •
-        <span class="muted-text">Link coming soon</span>
+        <strong>Advance Quantum Technology</strong> • 2026 •
+        <a href="https://doi.org/10.1002/qute.202500871" target="_blank" rel="noopener">
+          DOI
+        </a>
       </div>
     </div>
 
