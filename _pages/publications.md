@@ -46,7 +46,7 @@ permalink: /publications/
         Quantum Simulations of Battery Electrolytes with VQE-qEOM and SQD:
         Active-Space Design, Dissociation, and Excited States of LiPF₆,
         NaPF₆, and FSI Salts
-        <span class="badge featured-tag">Featured</span>
+        <span class="badge featured-tag">Quantum Benchmark Study</span>
       </div>
       <div class="list-sub">
         <strong>Advance Quantum Technology</strong> • 2026 •
