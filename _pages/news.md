@@ -14,7 +14,22 @@ permalink: /news/
 
   <div class="list-item">
       <div class="list-title">
-        2026 — Small Methods paper published
+        2026 — Advance Quantum Technology (Quantum Computing)
+      </div>
+      <div class="list-sub">
+        “Quantum Simulations of Battery Electrolytes with VQE-qEOM and SQD:
+        Active-Space Design, Dissociation, and Excited States of LiPF₆,
+        NaPF₆, and FSI Salts”
+        <a href="https://doi.org/10.1002/qute.202500871"
+           target="_blank" rel="noopener">
+          DOI
+        </a>
+      </div>
+    </div>
+
+  <div class="list-item">
+      <div class="list-title">
+        2026 — Small Methods paper published (FCDNN model)
       </div>
       <div class="list-sub">
         “Integrating Density Functional Theory with Deep Neural Networks for
@@ -41,13 +56,12 @@ permalink: /news/
 
   <div class="list-item">
       <div class="list-title">
-        Ongoing — Quantum simulations of battery electrolytes
+        Ongoing — Exponential Circuit Depth Compression via Spectral Gap Amplification in Quantum Phase Estimation
       </div>
       <div class="list-sub">
-        VQE-qEOM + SQD study for LiPF₆, NaPF₆, and FSI salts •
-        <a href="https://arxiv.org/abs/2509.13826"
+        Controle of circuit depth and CX gate during QPE
+        <a href="#"
            target="_blank" rel="noopener">
-          arXiv:2509.13826
         </a>
       </div>
     </div>
