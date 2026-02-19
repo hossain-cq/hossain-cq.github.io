@@ -142,6 +142,33 @@ permalink: /projects/
         <span class="badge">Spectral filtering</span>
       </div>
     </article>
+    
+<article class="card card-gradient">
+  <h3>Exponential Circuit Depth Compression via Spectral Gap Amplification</h3>
+  <p>
+    Spectral preconditioning framework for reducing quantum phase estimation (QPE)
+    precision overhead by amplifying effective boundary gaps prior to phase estimation.
+  </p>
+  <p>
+    Demonstrates exponential circuit-depth compression proportional to 2^Δm,
+    with verified principal-subspace preservation and hardware-level validation
+    across molecular, classical, and near-degenerate synthetic systems.
+  </p>
+
+  <ul class="project-meta">
+    <li><strong>Input:</strong> Hermitian operator ρ (molecular density matrices or covariance matrices)</li>
+    <li><strong>Output:</strong> Reduced QPE precision (m → m<sub>f</sub>) and exponential depth compression</li>
+    <li><strong>Audience:</strong> Quantum algorithms, QPE, and quantum linear algebra researchers</li>
+  </ul>
+
+  <div class="card-footer">
+    <span class="badge status-badge">Manuscript in prep</span>
+    <span class="badge">Quantum Algorithms</span>
+    <span class="badge">QPE</span>
+    <span class="badge">Spectral Engineering</span>
+  </div>
+</article>
+
 
   </div>
 </section>
