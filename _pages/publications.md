@@ -12,7 +12,7 @@ permalink: /publications/
       validation against first-principles or classical benchmarks.
     </p>
     <p>
-      Selected peer-reviewed articles and preprints. Full list is available on
+      Selected peer-reviewed articles and preprints from 2026. Full list is available on
       Google Scholar.
     </p>
 
