@@ -108,18 +108,6 @@ permalink: /publications/
       </div>
     </div>
 
-  <div class="list-item">
-      <div class="list-title">
-        Core–shell Cu₁₋ₓNCo₃₋ᵧ/a-CuFeCo antiperovskite as high-performance anode
-        for Li-ion batteries
-      </div>
-      <div class="list-sub">
-        <strong>Journal of Physics: Energy</strong> • 2023 •
-        <a href="https://doi.org/10.1088/2515-7655/ad08d9" target="_blank" rel="noopener">
-          DOI
-        </a>
-      </div>
-    </div>
 
   </div>
 </section>
