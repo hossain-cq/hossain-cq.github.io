@@ -41,6 +41,19 @@ permalink: /publications/
       </div>
     </div>
 
+   <div class="list-item">
+      <div class="list-title">
+        Functionalization-Driven Control of Flexural Acoustic Modes and Thermal Expansion in 2D BN Heterostructures
+        <span class="badge featured-tag">Negetive Thermal Expansion</span>
+      </div>
+      <div class="list-sub">
+        <strong>The Journal of Physical Chemistry C</strong> • 2026 •
+        <a href="https://pubs.acs.org/doi/10.1021/acs.jpcc.5c07829" target="_blank" rel="noopener">
+          DOI
+        </a>
+      </div>
+    </div>
+
   <div class="list-item">
       <div class="list-title">
         Quantum Simulations of Battery Electrolytes with VQE-qEOM and SQD:
