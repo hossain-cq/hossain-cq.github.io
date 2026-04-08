@@ -29,15 +29,14 @@ permalink: /publications/
 
   <div class="list-item status-under-review">
       <div class="list-title">
-        Tunable Thermal Expansion in Functionalized 2D Boron Nitride:
-        A First-Principles Investigation
+       Filtered Spectral Projection for Quantum Principal Component Analysis
       </div>
       <div class="list-sub">
         <strong>arXiv</strong> • 2026 •
-        <a href="https://arxiv.org/abs/2504.20443" target="_blank" rel="noopener">
-          arXiv:2504.20443
+        <a href="https://doi.org/10.48550/arXiv.2603.13441" target="_blank" rel="noopener">
+          arXiv:2603.13441
         </a>
-        • <span class="status-tag">Under Review at PCCP</span>
+        • <span class="status-tag">Under Review at Quantum Science and Technology</span>
       </div>
     </div>
 
