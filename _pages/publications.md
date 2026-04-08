@@ -34,7 +34,7 @@ permalink: /publications/
       <div class="list-sub">
         <strong>arXiv</strong> • 2026 •
         <a href="https://doi.org/10.48550/arXiv.2603.13441" target="_blank" rel="noopener">
-          arXiv:2603.13441
+          DOI
         </a>
         • <span class="status-tag">Under Review at Quantum Science and Technology</span>
       </div>
@@ -48,6 +48,32 @@ permalink: /publications/
       <div class="list-sub">
         <strong>The Journal of Physical Chemistry C</strong> • 2026 •
         <a href="https://pubs.acs.org/doi/10.1021/acs.jpcc.5c07829" target="_blank" rel="noopener">
+          DOI
+        </a>
+      </div>
+    </div>
+
+  <div class="list-item">
+      <div class="list-title">
+        Direct Growth of Transparent Boron Nitride Neutron Shielding Layer for Space Window
+        <span class="badge featured-tag">Negetive Thermal Expansion</span>
+      </div>
+      <div class="list-sub">
+        <strong>Advanced Science </strong> • 2026 •
+        <a href="https://doi.org/10.1002/advs.202516390" target="_blank" rel="noopener">
+          DOI
+        </a>
+      </div>
+    </div>
+
+   <div class="list-item">
+      <div class="list-title">
+        Tuning Diluent-Solvent Interactions via Optimal Diluent Fluorination for Favorable Graphite Anode Interface
+        <span class="badge featured-tag">Battery Electrolyte</span>
+      </div>
+      <div class="list-sub">
+        <strong>Advanced Functional Materials </strong> • 2026 •
+        <a href="https://doi.org/10.1002/adfm.202531770" target="_blank" rel="noopener">
           DOI
         </a>
       </div>
