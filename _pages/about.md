@@ -110,3 +110,4 @@ permalink: /about/
 
   </div>
 </section>
+
