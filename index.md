@@ -25,7 +25,7 @@ title: Home | Hossain Quantum Research
 
   <p class="hero-narrative">
     My work spans DFT-driven ML for battery materials to VQE/SQD-based quantum
-    simulation of real electrolyte molecules. What ties it together is a focus
+    simulation of real large molecules. What ties it together is a focus
     on reproducibility, interpretability, and workflows that actually run on
     the hardware that exists today.
   </p>
@@ -116,9 +116,9 @@ title: Home | Hossain Quantum Research
         Manuscripts in preparation; code under active development.
       </li>
       <li>
-        <strong>Active-space design for battery electrolytes.</strong>
+        <strong>Active-space design for bio molecules.</strong>
         Extending the VQE/qEOM/SQD framework from LiPF₆ and NaPF₆ to
-        larger electrolyte systems, benchmarking against CCSD(T) to
+        larger bio-molecular systems, benchmarking against CCSD(T) to
         establish where quantum methods offer genuine advantage.
       </li>
     </ul>
@@ -274,25 +274,26 @@ title: Home | Hossain Quantum Research
       </div>
     </article>
 
+
     <article class="card">
-      <h3>Current directions</h3>
+      <h3>Selected achievements</h3>
       <p>
-        I am currently developing spectral filtering and subspace quantum
-        algorithms for resolving near-degenerate eigenvalues in correlated
-        molecular systems — work that targets both algorithmic scalability
-        and noise robustness on NISQ hardware.
+        Three first-author publications in 2026 in <em>Advanced Quantum 
+        Technologies</em>, <em>Small Methods</em> and <em>JPCC</em> with 
+        9 peer-reviewed journal articles spanning quantum simulation, 
+        battery materials,and materials AI/ML.
       </p>
       <p>
-        A parallel direction applies quantum principal component analysis to
-        molecular density matrices, with the goal of exponential circuit-depth
-        compression via spectral gap amplification. Both projects have
-        manuscripts in preparation and code under active development.
-      </p>
-      <div class="card-footer">
-        <span class="badge">Spectral gap amplification</span>
-        <span class="badge">Quantum PCA</span>
-        <span class="badge">NISQ algorithms</span>
-      </div>
+        Recipient of the MHRD doctoral fellowship (2016) and teaching 
+        assistant award for the Winter School on Electronic Structure 
+        and Molecular Dynamics Simulations (2020). Certified in Quantum 
+        Computing jointly by C-DAC and IIT Roorkee (2025).
+     </p>
+     <div class="card-footer">
+       <span class="badge">9 journal articles</span>
+       <span class="badge">MHRD fellowship</span>
+       <span class="badge">QC certified 2025</span>
+     </div>
     </article>
 
   </div>
