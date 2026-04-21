@@ -13,7 +13,7 @@ title: Home | Hossain Quantum Research
   </div>
 
   <h1 class="hero-title" style="font-size: 2rem;">
-    <span class="grad">Quantum simulation</span><br>meets materials science
+    Quantum simulation meets <span class="grad">materials&nbsp;science</span>
   </h1>
 
   <p class="hero-subtitle">
