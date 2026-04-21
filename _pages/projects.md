@@ -36,6 +36,11 @@ permalink: /projects/
            target="_blank" rel="noopener">
           Publication →
         </a>
+        <a class="link"
+           href="https://github.com/hossain-cq/FCDNN"
+           target="_blank" rel="noopener">
+          Code →
+        </a>
         <span class="badge">PyTorch</span>
         <span class="badge">FCDNN</span>
         <span class="badge">Feature analysis</span>
@@ -72,6 +77,11 @@ permalink: /projects/
            href="https://doi.org/10.1002/qute.202500871"
            target="_blank" rel="noopener">
           Publication →
+        </a>
+        <a class="link"
+           href="https://github.com/hossain-cq/AQT_electrolyte"
+           target="_blank" rel="noopener">
+          Code →
         </a>
         <span class="badge">Electrolytes</span>
         <span class="badge">VQE</span>
