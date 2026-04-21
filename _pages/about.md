@@ -16,7 +16,6 @@ permalink: /about/
 
   <div class="grid">
 
-  <article class="card">
     <article class="card">
       <h3>Background & motivation</h3>
       <p>
@@ -38,9 +37,6 @@ permalink: /about/
         <span class="badge">Postdoc, IKST Bengaluru</span>
         <span class="badge">JRF, IIT Bombay</span>
       </div>
-  </article>
-
-  <article class="card">
     </article>
 
     <article class="card">
@@ -65,7 +61,7 @@ permalink: /about/
         <span class="badge">Materials-focused ML</span>
         <span class="badge">VQE · qEOM · SQD</span>
       </div>
-  </article>
+    </article>
 
     <article class="card">
       <h3>Methodological approach</h3>
@@ -89,9 +85,9 @@ permalink: /about/
         <span class="badge">Spectral methods</span>
         <span class="badge">Model interpretability</span>
       </div>
-  </article>
+    </article>
 
-  <article class="card">
+    <article class="card">
       <h3>Current directions</h3>
       <p>
         I am currently developing spectral filtering and subspace quantum
@@ -110,8 +106,7 @@ permalink: /about/
         <span class="badge">Quantum PCA</span>
         <span class="badge">NISQ algorithms</span>
       </div>
-  </article>
-
+    </article>
 
   </div>
 </section>
