@@ -112,26 +112,6 @@ permalink: /about/
       </div>
   </article>
 
-    <article class="card">
-      <h3>Current directions</h3>
-      <p>
-        I am currently developing spectral filtering and subspace quantum
-        algorithms for resolving near-degenerate eigenvalues in correlated
-        molecular systems — work that targets both algorithmic scalability
-        and noise robustness on NISQ hardware.
-      </p>
-      <p>
-        A parallel direction applies quantum principal component analysis to
-        molecular density matrices, with the goal of exponential circuit-depth
-        compression via spectral gap amplification. Both projects have
-        manuscripts in preparation and code under active development.
-      </p>
-      <div class="card-footer">
-        <span class="badge">Spectral gap amplification</span>
-        <span class="badge">Quantum PCA</span>
-        <span class="badge">NISQ algorithms</span>
-      </div>
-    </article>
 
   </div>
 </section>
