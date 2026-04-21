@@ -12,7 +12,7 @@ title: Home | Hossain Quantum Research
     Computational Materials • AI/ML • Quantum Algorithms
   </div>
 
-  <h1 class="hero-title">
+  <h1 class="hero-title" style="font-size: 2rem;">
     <span class="grad">Quantum simulation</span><br>meets materials science
   </h1>
 
