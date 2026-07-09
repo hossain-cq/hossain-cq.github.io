@@ -176,16 +176,22 @@ title: Home | Hossain Quantum Research
            alt="Korea-India Research Joint Workshop, Seoul 2025"
            class="active">
       <img src="{{ '/static/conferences/conf5.jpg' | relative_url }}"
-           alt="International Conference on Sustainable Batteries, Kolkata 2025">
+           alt="International Conference on Sustainable Batteries, Kolkata 2025"
+           loading="lazy">
       <img src="{{ '/static/conferences/conf3.jpg' | relative_url }}"
-           alt="International School on Modelling and Simulations, JNCASR 2025">
+           alt="International School on Modelling and Simulations, JNCASR 2025"
+           loading="lazy">
       <img src="{{ '/static/conferences/conf4.jpg' | relative_url }}"
-           alt="EESTER-2020, IIT Madras">
+           alt="EESTER-2020, IIT Madras"
+           loading="lazy">
       <img src="{{ '/static/conferences/conf6.jpg' | relative_url }}"
-           alt="Winter School on Electronic Structure, Kathmandu University 2020">
+           alt="Winter School on Electronic Structure, Kathmandu University 2020"
+           loading="lazy">
       <img src="{{ '/static/conferences/conf8.jpg' | relative_url }}"
-           alt="Machine Learning in Materials Science seminar, IISER Pune 2018">
+           alt="Machine Learning in Materials Science seminar, IISER Pune 2018"
+           loading="lazy">
       <img src="{{ '/static/conferences/conf9.jpg' | relative_url }}"
+           loading="lazy"
            alt="EESTER-2018, SRM University Chennai">
     </div>
 
