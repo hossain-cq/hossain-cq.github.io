@@ -87,7 +87,8 @@ document.querySelectorAll('.card, .list-item').forEach(el => {
 =============================== */
 function copyEmail(element) {
   // Finds the email text specifically within the clicked chip
-  const emailText = element.querySelector('#userEmail').textContent;
+  const emailEl = element.querySelector('[data-email]') || element.querySelector('#userEmail');
+  const emailText = emailEl.textContent.trim();
 
   if (navigator.clipboard && window.isSecureContext) {
     navigator.clipboard.writeText(emailText).then(() => {

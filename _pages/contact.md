@@ -22,13 +22,26 @@ permalink: /contact/
       <!-- Academic & professional links -->
   <div class="side-links" style="margin-top:12px;">
 
-        <!-- Email -->
+        <!-- Email (institutional, primary) -->
    <div class="chip"
              style="cursor: pointer;"
              onclick="copyEmail(this)"
              title="Click to copy email">
           <i class="fa-solid fa-envelope" style="color:#ea4335;"></i>
-          <span id="userEmail">hossain.sk@ikst.res.in</span>
+          <span data-email>hossain.sk@ikst.res.in</span>
+          <span style="opacity:0.6; font-size:0.85em; margin-left:4px;">(institutional)</span>
+          <i class="fa-solid fa-copy"
+             style="margin-left: 8px; font-size: 0.8em; opacity: 0.6;"></i>
+        </div>
+
+        <!-- Email (personal, alternate) -->
+   <div class="chip"
+             style="cursor: pointer;"
+             onclick="copyEmail(this)"
+             title="Click to copy email">
+          <i class="fa-solid fa-envelope" style="color:#ea4335;"></i>
+          <span data-email>hossain.physics@gmail.com</span>
+          <span style="opacity:0.6; font-size:0.85em; margin-left:4px;">(personal)</span>
           <i class="fa-solid fa-copy"
              style="margin-left: 8px; font-size: 0.8em; opacity: 0.6;"></i>
         </div>
@@ -71,7 +84,7 @@ permalink: /contact/
            style="margin-top:14px; display:flex; gap:10px; flex-wrap:wrap;">
 
   <a class="btn btn-primary"
-           href="mailto:hossain.physics@gmail.com?subject=Research%20Collaboration%20Inquiry">
+           href="mailto:hossain.sk@ikst.res.in?subject=Research%20Collaboration%20Inquiry">
           <i class="fa-solid fa-envelope"></i>
           Email
         </a>

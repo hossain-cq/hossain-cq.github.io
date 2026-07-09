@@ -1,6 +1,7 @@
 ---
 layout: default
 title: News | Dr. Hossain Quantum Research
+description: Research milestones, publications, and ongoing work from Dr. Hossain's group.
 permalink: /news/
 ---
 
@@ -12,9 +13,23 @@ permalink: /news/
 
   <div class="list">
 
+  <div class="list-item featured-news">
+      <div class="list-title">
+        <span class="status-tag">Preprint</span>
+        Jan 2026 — “Tunable Thermal Expansion in Functionalized 2D Boron Nitride”
+      </div>
+      <div class="list-sub">
+        Submitted and under review at <strong>PCCP</strong>.
+        <a href="https://arxiv.org/abs/2504.20443" target="_blank" rel="noopener">
+          Read on arXiv →
+        </a>
+      </div>
+    </div>
+
   <div class="list-item">
       <div class="list-title">
-        2026 — Advance Quantum Technology (Quantum Computing)
+        <span class="status-tag">Publication</span>
+        2026 — Advanced Quantum Technologies
       </div>
       <div class="list-sub">
         “Quantum Simulations of Battery Electrolytes with VQE-qEOM and SQD:
@@ -29,7 +44,8 @@ permalink: /news/
 
   <div class="list-item">
       <div class="list-title">
-        2026 — Small Methods paper published (FCDNN model)
+        <span class="status-tag">Publication</span>
+        2026 — Small Methods (FCDNN model)
       </div>
       <div class="list-sub">
         “Integrating Density Functional Theory with Deep Neural Networks for
@@ -41,28 +57,14 @@ permalink: /news/
       </div>
     </div>
 
-  <div class="news-item featured-news">
-      <span class="news-date">Jan 2026</span>
-      <div class="news-content">
-        <strong>New Preprint & Submission:</strong>
-        “Tunable Thermal Expansion in Functionalized 2D Boron Nitride”
-        under review at <strong>PCCP</strong>.
-        <a href="https://arxiv.org/abs/2504.20443"
-           target="_blank" class="news-link">
-          Read on arXiv →
-        </a>
-      </div>
-    </div>
-
   <div class="list-item">
       <div class="list-title">
-        Ongoing — Exponential Circuit Depth Compression via Spectral Gap Amplification in Quantum Phase Estimation
+        <span class="status-tag status-badge">In progress</span>
+        Exponential Circuit Depth Compression via Spectral Gap Amplification in Quantum Phase Estimation
       </div>
       <div class="list-sub">
-        Controle of circuit depth and CX gate during QPE
-        <a href="#"
-           target="_blank" rel="noopener">
-        </a>
+        Reducing circuit depth and CX-gate count during QPE via spectral
+        preconditioning. Manuscript in preparation.
       </div>
     </div>
 

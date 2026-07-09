@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Research | Dr. Hossain Quantum Research
+description: Reproducible computational frameworks integrating first-principles physics, machine learning, and near-term quantum algorithms for materials discovery.
 permalink: /research/
 ---
 

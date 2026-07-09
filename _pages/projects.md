@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Projects | Dr. Hossain Quantum Research
+description: Research projects integrating first-principles simulation, machine learning, and quantum algorithms for battery materials and molecular systems.
+image: /static/projects/vqe/TOC_v2.jpg
 permalink: /projects/
 ---
 
@@ -160,14 +162,15 @@ permalink: /projects/
     precision overhead by amplifying effective boundary gaps prior to phase estimation.
   </p>
   <p>
-    Demonstrates exponential circuit-depth compression proportional to 2^Δm,
-    with verified principal-subspace preservation and hardware-level validation
-    across molecular, classical, and near-degenerate synthetic systems.
+    Demonstrates exponential circuit-depth compression proportional to
+    \(2^{\Delta m}\), with verified principal-subspace preservation and
+    hardware-level validation across molecular, classical, and near-degenerate
+    synthetic systems.
   </p>
 
   <ul class="project-meta">
-    <li><strong>Input:</strong> Hermitian operator ρ (molecular density matrices or covariance matrices)</li>
-    <li><strong>Output:</strong> Reduced QPE precision (m → m<sub>f</sub>) and exponential depth compression</li>
+    <li><strong>Input:</strong> Hermitian operator \(\rho\) (molecular density matrices or covariance matrices)</li>
+    <li><strong>Output:</strong> Reduced QPE precision (\(m \to m_f\)) and exponential depth compression</li>
     <li><strong>Audience:</strong> Quantum algorithms, QPE, and quantum linear algebra researchers</li>
   </ul>
 

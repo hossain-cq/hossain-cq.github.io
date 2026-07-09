@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hossain-cq.github.io/sitemap.xml

@@ -13,34 +13,31 @@
   </title>
 
   <meta name="description"
-        content="Computational materials scientist working at the intersection of first-principles simulation (DFT, AIMD), materials-focused machine learning, and quantum algorithms, with applications to battery materials and excited-state problems.">
+        content="{% if page.description %}{{ page.description }}{% else %}Computational materials scientist working at the intersection of first-principles simulation (DFT, AIMD), materials-focused machine learning, and quantum algorithms, with applications to battery materials and excited-state problems.{% endif %}">
 
   <meta name="author" content="Dr. Hossain">
   <meta name="keywords"
         content="computational materials science, density functional theory, materials machine learning, physics-informed ML, quantum algorithms, battery materials, excited states">
 
-  <link rel="canonical" href="https://hossain-cq.github.io/">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+
+  {% assign og_title = page.title | default: "Dr. Hossain · Computational Materials & Quantum Research" %}
+  {% assign og_description = page.description | default: "Research at the intersection of DFT, materials-focused machine learning, and quantum algorithms, with emphasis on reproducible workflows and excited-state problems." %}
+  {% assign og_image = page.image | default: "/static/profile.png" %}
 
   <!-- Open Graph -->
   <meta property="og:site_name" content="Hossain Quantum Research">
-  <meta property="og:title"
-        content="Dr. Hossain · Computational Materials & Quantum Research">
-  <meta property="og:description"
-        content="Research at the intersection of DFT, materials-focused machine learning, and quantum algorithms, with emphasis on reproducible workflows and excited-state problems.">
-  <meta property="og:image"
-        content="https://hossain-cq.github.io/static/profile.png">
-  <meta property="og:url"
-        content="https://hossain-cq.github.io/">
-  <meta property="og:type" content="profile">
+  <meta property="og:title" content="{{ og_title }}">
+  <meta property="og:description" content="{{ og_description }}">
+  <meta property="og:image" content="{{ og_image | absolute_url }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:type" content="{% if page.url == '/' %}profile{% else %}website{% endif %}">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title"
-        content="Dr. Hossain · Computational Materials & Quantum Research">
-  <meta name="twitter:description"
-        content="Computational materials science integrating DFT, AI/ML, and quantum algorithms for energy and excited-state problems.">
-  <meta name="twitter:image"
-        content="https://hossain-cq.github.io/static/profile.png">
+  <meta name="twitter:title" content="{{ og_title }}">
+  <meta name="twitter:description" content="{{ og_description }}">
+  <meta name="twitter:image" content="{{ og_image | absolute_url }}">
 
   <!-- Fonts & Styles -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -51,6 +48,15 @@
 
   <link rel="icon" href="{{ '/static/favicon.png' | relative_url }}">
   <link rel="stylesheet" href="{{ '/static/style.css' | relative_url }}">
+
+  <!-- MathJax: for rendering inline equations in research/project descriptions -->
+  <script>
+    window.MathJax = {
+      tex: { inlineMath: [['\\(', '\\)']] },
+      options: { skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'] }
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
   <!-- Structured Data -->
   <script type="application/ld+json">
@@ -67,6 +73,7 @@
     },
     "sameAs": [
       "https://scholar.google.com/citations?user=j9qy2R0AAAAJ",
+      "https://orcid.org/0000-0002-1737-3757",
       "https://github.com/hossain-cq",
       "https://www.linkedin.com/in/sk-mujaffar-hossain-ph-d-a728089b/"
     ],

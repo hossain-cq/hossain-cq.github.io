@@ -64,10 +64,17 @@ title: Home | Hossain Quantum Research
       Google Scholar
     </a>
 
+    <a class="chip"
+       href="https://orcid.org/0000-0002-1737-3757"
+       target="_blank" rel="noopener">
+      <i class="fa-brands fa-orcid" style="color:#A6CE39;"></i>
+      ORCID
+    </a>
+
     <div class="chip" onclick="copyEmail(this)" style="cursor:pointer;" title="Click to copy email">
       <i class="fa-solid fa-envelope" style="color:#ea4335;"></i>
       <span id="heroEmailName">Email</span>
-      <span id="userEmail" style="display:none;">hossain.physics@gmail.com</span>
+      <span data-email style="display:none;">hossain.sk@ikst.res.in</span>
     </div>
   </div>
 

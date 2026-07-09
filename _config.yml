@@ -6,6 +6,9 @@ baseurl: ""
 
 markdown: kramdown
 
+plugins:
+  - jekyll-sitemap
+
 collections:
   pages:
     output: true
