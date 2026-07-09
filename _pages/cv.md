@@ -51,8 +51,7 @@ permalink: /cv/
       <div class="list-sub">
         Indo-Korea Science and Technology (IKST) Center, Bengaluru, India.
         <br><em>Research focus:</em> Integration of density functional theory,
-        materials-focused machine learning, and quantum algorithms (VQE&ndash;qEOM, SQD)
-        for materials and molecules.
+        materials-focused machine learning, and quantum algorithms for materials and molecules.
       </div>
     </div>
     <div class="list-item">
@@ -249,6 +248,10 @@ permalink: /cv/
     <h3>Conferences, workshops &amp; schools</h3>
   </div>
   <div class="list">
+    <div class="list-item">
+      <div class="list-title">2026 &mdash; Talk: Korea&ndash;India Research Joint Workshop</div>
+      <div class="list-sub">KIST, Seoul, South Korea (25&ndash;30 May 2026).</div>
+    </div>
     <div class="list-item">
       <div class="list-title">2025 &mdash; Talk: Korea&ndash;India Research Joint Workshop</div>
       <div class="list-sub">Kookmin University and KIST, Seoul, South Korea (8&ndash;25 May 2025).</div>
