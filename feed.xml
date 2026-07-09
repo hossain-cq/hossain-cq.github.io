@@ -1,0 +1,28 @@
+---
+layout: null
+permalink: /feed.xml
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hossain Quantum Research — News</title>
+  <subtitle>Research milestones, publications, and updates from Dr. Hossain</subtitle>
+  <link href="{{ '/feed.xml' | absolute_url }}" rel="self" />
+  <link href="{{ '/' | absolute_url }}" />
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>{{ '/' | absolute_url }}</id>
+  <author>
+    <name>Sk Mujaffar Hossain</name>
+  </author>
+  {% assign sorted_news = site.data.news | sort: 'date' | reverse %}
+  {% for item in sorted_news %}
+  <entry>
+    <title>{{ item.headline | strip_html }}</title>
+    <link href="{{ item.link_url | default: site.url | append: '/news/' }}" />
+    <id>{{ site.url }}/news/#{{ item.date }}-{{ forloop.index }}</id>
+    <published>{{ item.date | date_to_xmlschema }}</published>
+    <updated>{{ item.date | date_to_xmlschema }}</updated>
+    <category term="{{ item.type }}" />
+    <summary type="html">{{ item.body | xml_escape }}</summary>
+  </entry>
+  {% endfor %}
+</feed>

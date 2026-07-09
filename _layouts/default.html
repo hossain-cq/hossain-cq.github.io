@@ -47,6 +47,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" crossorigin="anonymous">
 
   <link rel="icon" href="{{ '/static/favicon.png' | relative_url }}">
+  <link rel="apple-touch-icon" href="{{ '/static/apple-touch-icon.png' | relative_url }}">
+  <link rel="manifest" href="{{ '/site.webmanifest' | relative_url }}">
+  <meta name="theme-color" content="#7c5cff">
+  <link rel="alternate" type="application/atom+xml" title="Hossain Quantum Research — News" href="{{ '/feed.xml' | relative_url }}">
   <link rel="stylesheet" href="{{ '/static/style.css' | relative_url }}">
 
   <!-- MathJax: for rendering inline equations in research/project descriptions -->
@@ -93,6 +97,8 @@
 
 <body>
 
+<a class="skip-link" href="#main-content">Skip to main content</a>
+
 <div class="bg" aria-hidden="true">
   <div class="blob blob-1"></div>
   <div class="blob blob-2"></div>
@@ -101,7 +107,7 @@
 
 {% include header.html %}
 
-<main id="top" class="container main-content" role="main">
+<main id="main-content" class="container main-content" role="main">
   {{ content }}
 </main>
 

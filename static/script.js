@@ -12,11 +12,14 @@
   }
 
   if (btn) {
+    btn.setAttribute("aria-pressed", root.getAttribute("data-theme") === "dark" ? "true" : "false");
+
     btn.addEventListener("click", () => {
       const current = root.getAttribute("data-theme") || "light";
       const next = current === "dark" ? "light" : "dark";
       root.setAttribute("data-theme", next);
       localStorage.setItem("theme", next);
+      btn.setAttribute("aria-pressed", next === "dark" ? "true" : "false");
     });
   }
 

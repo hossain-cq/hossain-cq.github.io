@@ -9,6 +9,12 @@ permalink: /news/
   <div class="section-head">
     <h2>News & Updates</h2>
     <p>Research milestones and ongoing work.</p>
+    <div style="margin-top: 12px;">
+      <a class="btn btn-ghost" href="{{ '/feed.xml' | relative_url }}" target="_blank" rel="noopener">
+        <i class="fa-solid fa-rss" style="color:#ee802f;"></i>
+        Subscribe via RSS
+      </a>
+    </div>
   </div>
 
   <div class="list">
