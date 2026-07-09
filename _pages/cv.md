@@ -25,24 +25,22 @@ permalink: /cv/
     </div>
   </div>
 
-  <div class="grid">
-    <article class="card">
-      <h3>Research vision</h3>
-      <p>
-        I am a computational materials scientist integrating first-principles electronic
-        structure methods, materials-focused machine learning, and variational quantum
-        algorithms to address computational bottlenecks in materials and molecular systems.
-        My work spans density functional theory, quantum chemistry, and quantum simulation,
-        with particular emphasis on active-space design, algorithmic benchmarking, and
-        reproducible hybrid classical&ndash;quantum workflows. I focus on chemically and
-        energetically relevant systems where conventional approaches become computationally
-        intensive or lack interpretability, and where quantum-enhanced strategies may offer
-        scalable alternatives. My research aims to develop coherent frameworks that unify
-        predictive modeling, quantum algorithm development, and experimentally meaningful
-        materials problems.
-      </p>
-    </article>
-  </div>
+  <article class="card">
+    <h3>Research vision</h3>
+    <p>
+      I am a computational materials scientist integrating first-principles electronic
+      structure methods, materials-focused machine learning, and variational quantum
+      algorithms to address computational bottlenecks in materials and molecular systems.
+      My work spans density functional theory, quantum chemistry, and quantum simulation,
+      with particular emphasis on active-space design, algorithmic benchmarking, and
+      reproducible hybrid classical&ndash;quantum workflows. I focus on chemically and
+      energetically relevant systems where conventional approaches become computationally
+      intensive or lack interpretability, and where quantum-enhanced strategies may offer
+      scalable alternatives. My research aims to develop coherent frameworks that unify
+      predictive modeling, quantum algorithm development, and experimentally meaningful
+      materials problems.
+    </p>
+  </article>
 
   <div class="section-head" style="margin-top: 28px;">
     <h3>Employment history</h3>

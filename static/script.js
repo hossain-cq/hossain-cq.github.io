@@ -13,7 +13,7 @@
 
   if (btn) {
     btn.addEventListener("click", () => {
-      const current = root.getAttribute("data-theme") || "dark";
+      const current = root.getAttribute("data-theme") || "light";
       const next = current === "dark" ? "light" : "dark";
       root.setAttribute("data-theme", next);
       localStorage.setItem("theme", next);
