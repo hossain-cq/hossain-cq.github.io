@@ -117,5 +117,46 @@ permalink: /contact/
     </aside>
 
   </div>
+
+  <form class="contact-form"
+        id="contactForm"
+        action="https://formspree.io/f/xpqggjlq"
+        method="POST"
+        style="margin-top: 18px;">
+    <h3>Send a message</h3>
+
+    <div class="row">
+      <div>
+        <label for="cf-name">Name</label>
+        <input type="text" id="cf-name" name="name" autocomplete="name" required>
+      </div>
+      <div>
+        <label for="cf-email">Email</label>
+        <input type="email" id="cf-email" name="email" autocomplete="email" required>
+      </div>
+    </div>
+
+    <label for="cf-subject">Subject</label>
+    <input type="text" id="cf-subject" name="subject" required>
+
+    <label for="cf-message">Message</label>
+    <textarea id="cf-message" name="message" rows="5" required></textarea>
+
+    <div class="hp-field" aria-hidden="true">
+      <label for="cf-hp">Leave this field empty</label>
+      <input type="text" id="cf-hp" name="_gotcha" tabindex="-1" autocomplete="off">
+    </div>
+    <input type="hidden" name="_subject" value="New message from hossain-cq.github.io contact form">
+
+    <div style="margin-top:14px; display:flex; align-items:center; gap:12px; flex-wrap:wrap;">
+      <button type="submit" class="btn btn-primary">Send message</button>
+      <span id="contactFormStatus" class="form-status" role="status"></span>
+    </div>
+
+    <p class="contact-hint">
+      Sent directly to my inbox via Formspree &mdash; this site itself doesn&rsquo;t
+      store or log your message.
+    </p>
+  </form>
 </section>
 

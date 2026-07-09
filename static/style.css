@@ -625,6 +625,34 @@ input:focus, textarea:focus{
   color: var(--muted);
   font-size: 12px;
 }
+.form-status{
+  margin-top: 12px;
+  padding: 10px 14px;
+  border-radius: 12px;
+  font-size: 13px;
+  font-weight: 700;
+  display: none;
+}
+.form-status.is-visible{ display: block; }
+.form-status.is-success{
+  background: rgba(46,204,113,0.12);
+  border: 1px solid rgba(46,204,113,0.4);
+  color: #2ecc71;
+}
+.form-status.is-error{
+  background: rgba(255,78,205,0.10);
+  border: 1px solid rgba(255,78,205,0.4);
+  color: var(--text);
+}
+/* Honeypot field: positioned off-screen (not display:none) so bots that
+   check computed visibility still fill it in and get caught. */
+.hp-field{
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
 .contact-side .card{ margin-bottom: 14px; }
 .side-links{ display:flex; gap: 10px; flex-wrap: wrap; }
 

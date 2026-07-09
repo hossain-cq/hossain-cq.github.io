@@ -188,4 +188,48 @@ if (toggle && nav) {
 
 }
 
+/* ===============================
+   Contact form (Formspree, AJAX)
+=============================== */
+(function () {
+  const form = document.getElementById('contactForm');
+  if (!form) return;
+
+  const status = document.getElementById('contactFormStatus');
+  const submitBtn = form.querySelector('button[type="submit"]');
+
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Sending…';
+
+    fetch(form.action, {
+      method: 'POST',
+      body: new FormData(form),
+      headers: { 'Accept': 'application/json' }
+    })
+      .then((response) => {
+        if (response.ok) {
+          status.textContent = "Thanks — your message has been sent. I'll get back to you soon.";
+          status.className = 'form-status is-visible is-success';
+          form.reset();
+        } else {
+          return response.json().then((data) => {
+            const detail = data && data.errors && data.errors.map((err) => err.message).join(', ');
+            throw new Error(detail || 'Something went wrong.');
+          });
+        }
+      })
+      .catch(() => {
+        status.textContent = 'Something went wrong sending this — please email me directly instead.';
+        status.className = 'form-status is-visible is-error';
+      })
+      .finally(() => {
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Send message';
+      });
+  });
+})();
+
 
