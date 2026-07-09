@@ -13,13 +13,18 @@
 #   featured  (optional) true -> highlights the entry with an accent border
 #   muted     (optional) true -> renders the type tag as a dashed/in-progress style
 
+- type: "Award"
+  date: 2026-06-15
+  headline: "June 2026 — Awarded $10,000 in IonQ Research Credits"
+  body: "Received $10,000 in IonQ quantum computing credits, providing access to run experiments on real trapped-ion QPU hardware."
+  featured: true
+
 - type: "Preprint"
   date: 2026-01-15
   headline: "Jan 2026 — “Tunable Thermal Expansion in Functionalized 2D Boron Nitride”"
   body: "Submitted and under review at <strong>PCCP</strong>."
   link_url: "https://arxiv.org/abs/2504.20443"
   link_text: "Read on arXiv →"
-  featured: true
 
 - type: "Publication"
   date: 2026-02-14  # Advanced Quantum Technologies online-publication date (Crossref)

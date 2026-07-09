@@ -182,6 +182,33 @@ permalink: /projects/
   </div>
 </article>
 
+<article class="card card-gradient">
+  <h3>Quantum computing simulation platform</h3>
+  <p>
+    A research initiative building a cloud-based platform for running VQE,
+    qEOM, and SQD workflows on real molecular systems directly from a
+    browser, paired with a growing benchmark database of results validated
+    against classical electronic-structure methods.
+  </p>
+  <p>
+    The goal is to turn the reproducible quantum-simulation workflows behind
+    my published research into shared infrastructure that any researcher can
+    use, rather than one-off scripts tied to a single paper.
+  </p>
+
+  <ul class="project-meta">
+    <li><strong>Input:</strong> Molecular structures and Hamiltonians</li>
+    <li><strong>Output:</strong> Benchmarked ground- and excited-state energies via a browser-based interface</li>
+    <li><strong>Audience:</strong> Quantum chemistry and materials researchers</li>
+  </ul>
+
+  <div class="card-footer">
+    <span class="badge status-badge">Platform in development</span>
+    <span class="badge">VQE / qEOM / SQD</span>
+    <span class="badge">Benchmark database</span>
+    <span class="badge">Reproducible workflows</span>
+  </div>
+</article>
 
   </div>
 </section>
