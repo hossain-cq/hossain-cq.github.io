@@ -152,11 +152,6 @@ permalink: /contact/
       <button type="submit" class="btn btn-primary">Send message</button>
       <span id="contactFormStatus" class="form-status" role="status"></span>
     </div>
-
-    <p class="contact-hint">
-      Sent directly to my inbox via Formspree &mdash; this site itself doesn&rsquo;t
-      store or log your message.
-    </p>
   </form>
 </section>
 
