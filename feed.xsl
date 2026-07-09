@@ -67,7 +67,7 @@
       <div class="entry">
         <div class="date"><xsl:value-of select="substring(atom:published, 1, 10)"/></div>
         <h2><xsl:value-of select="atom:title"/></h2>
-        <div><xsl:value-of select="atom:summary" disable-output-escaping="yes"/></div>
+        <div><xsl:value-of select="atom:summary"/></div>
         <xsl:if test="atom:link/@href">
           <div style="margin-top:8px;">
             <a href="{atom:link/@href}">Read more →</a>

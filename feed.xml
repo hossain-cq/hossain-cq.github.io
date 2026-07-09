@@ -16,14 +16,15 @@ permalink: /feed.xml
   </author>
   {% assign sorted_news = site.data.news | sort: 'date' | reverse %}
   {% for item in sorted_news %}
+  {% if item.link_url %}{% assign entry_link = item.link_url %}{% else %}{% assign entry_link = '/news/' | absolute_url %}{% endif %}
   <entry>
     <title>{{ item.headline | strip_html }}</title>
-    <link href="{{ item.link_url | default: site.url | append: '/news/' }}" />
+    <link href="{{ entry_link }}" />
     <id>{{ site.url }}/news/#{{ item.date }}-{{ forloop.index }}</id>
     <published>{{ item.date | date_to_xmlschema }}</published>
     <updated>{{ item.date | date_to_xmlschema }}</updated>
     <category term="{{ item.type }}" />
-    <summary type="html">{{ item.body | xml_escape }}</summary>
+    <summary type="text">{{ item.body | strip_html | xml_escape }}</summary>
   </entry>
   {% endfor %}
 </feed>
