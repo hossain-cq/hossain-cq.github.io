@@ -25,7 +25,7 @@ permalink: /cv/
     </div>
   </div>
 
-  <article class="card">
+  <article class="card" style="margin-top: 28px;">
     <h3>Research vision</h3>
     <p>
       I am a computational materials scientist integrating first-principles electronic
