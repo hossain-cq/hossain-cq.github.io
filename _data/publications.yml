@@ -1,0 +1,48 @@
+# Publications shown on /publications/, in display order (newest/most-relevant first).
+# Add a new entry at the top to publish a new paper — no HTML editing required.
+#
+# Fields:
+#   title          (required) paper title, exactly as it should render
+#   journal        (required) venue name, e.g. "Small Methods" or "arXiv"
+#   year           (required) publication/submission year
+#   doi_url        (required) DOI or arXiv link
+#   badge          (optional) short topic tag shown next to the title
+#   under_review   (optional) true -> highlights the entry as work-in-progress
+#   status_text    (optional) label shown when under_review is true
+
+- title: "Filtered Spectral Projection for Quantum Principal Component Analysis"
+  journal: "arXiv"
+  year: 2026
+  doi_url: "https://doi.org/10.48550/arXiv.2603.13441"
+  under_review: true
+  status_text: "Under Review at Quantum Science and Technology"
+
+- title: "Functionalization-Driven Control of Flexural Acoustic Modes and Thermal Expansion in 2D BN Heterostructures"
+  journal: "The Journal of Physical Chemistry C"
+  year: 2026
+  doi_url: "https://pubs.acs.org/doi/10.1021/acs.jpcc.5c07829"
+  badge: "Negative Thermal Expansion"
+
+- title: "Direct Growth of Transparent Boron Nitride Neutron Shielding Layer for Space Window"
+  journal: "Advanced Science"
+  year: 2026
+  doi_url: "https://doi.org/10.1002/advs.202516390"
+  badge: "Neutron Shielding"
+
+- title: "Tuning Diluent-Solvent Interactions via Optimal Diluent Fluorination for Favorable Graphite Anode Interface"
+  journal: "Advanced Functional Materials"
+  year: 2026
+  doi_url: "https://doi.org/10.1002/adfm.202531770"
+  badge: "Battery Electrolyte"
+
+- title: "Quantum Simulations of Battery Electrolytes with VQE-qEOM and SQD: Active-Space Design, Dissociation, and Excited States of LiPF₆, NaPF₆, and FSI Salts"
+  journal: "Advanced Quantum Technologies"
+  year: 2026
+  doi_url: "https://doi.org/10.1002/qute.202500871"
+  badge: "Quantum Benchmark Study"
+
+- title: "Integrating Density Functional Theory with Deep Neural Networks for Accurate Voltage Prediction"
+  journal: "Small Methods"
+  year: 2026
+  doi_url: "https://doi.org/10.1002/smtd.202502076"
+  badge: "Featured"

@@ -43,6 +43,11 @@
         Publications
       </a>
 
+      <a href="{{ '/cv/' | relative_url }}"
+         {% if page.url == '/cv/' %}aria-current="page"{% endif %}>
+        CV
+      </a>
+
       <a href="{{ '/projects/' | relative_url }}"
          {% if page.url == '/projects/' %}aria-current="page"{% endif %}>
         Projects

@@ -37,11 +37,8 @@ title: Home | Hossain Quantum Research
     </a>
 
     <a class="btn btn-ghost"
-       href="{{ '/static/cv.pdf' | relative_url }}"
-       target="_blank"
-       rel="noopener"
-       type="application/pdf">
-      Download CV
+       href="{{ '/cv/' | relative_url }}">
+      View CV
     </a>
   </div>
 

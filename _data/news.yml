@@ -1,0 +1,40 @@
+# News & Updates shown on /news/, in display order (newest first).
+# Add a new entry at the top to publish an update — no HTML editing required.
+#
+# Fields:
+#   type      (required) short tag, e.g. "Preprint", "Publication", "In progress", "Talk"
+#   headline  (required) the bold headline line
+#   body      (required) supporting sentence(s); may include inline HTML like <strong>
+#   link_url  (optional) outbound link (DOI, arXiv, etc.)
+#   link_text (optional) link label; defaults to "Read more →" if link_url is set
+#   featured  (optional) true -> highlights the entry with an accent border
+#   muted     (optional) true -> renders the type tag as a dashed/in-progress style
+
+- type: "Preprint"
+  headline: "Jan 2026 — “Tunable Thermal Expansion in Functionalized 2D Boron Nitride”"
+  body: "Submitted and under review at <strong>PCCP</strong>."
+  link_url: "https://arxiv.org/abs/2504.20443"
+  link_text: "Read on arXiv →"
+  featured: true
+
+- type: "Publication"
+  headline: "2026 — Advanced Quantum Technologies"
+  body: >
+    “Quantum Simulations of Battery Electrolytes with VQE-qEOM and SQD:
+    Active-Space Design, Dissociation, and Excited States of LiPF₆,
+    NaPF₆, and FSI Salts”
+  link_url: "https://doi.org/10.1002/qute.202500871"
+  link_text: "DOI"
+
+- type: "Publication"
+  headline: "2026 — Small Methods (FCDNN model)"
+  body: >
+    “Integrating Density Functional Theory with Deep Neural Networks for
+    Accurate Voltage Prediction…”
+  link_url: "https://doi.org/10.1002/smtd.202502076"
+  link_text: "DOI"
+
+- type: "In progress"
+  headline: "Exponential Circuit Depth Compression via Spectral Gap Amplification in Quantum Phase Estimation"
+  body: "Reducing circuit depth and CX-gate count during QPE via spectral preconditioning. Manuscript in preparation."
+  muted: true
